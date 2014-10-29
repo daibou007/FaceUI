@@ -7,12 +7,25 @@
 //
 
 #import "FAAppDelegate.h"
+#import "FAViewController.h"
 
 @implementation FAAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    application.statusBarHidden = NO;
+    
+    
+    FAViewController *tabController = [[FAViewController alloc] init];
+    self.window.rootViewController = tabController;
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    [[UIApplication sharedApplication] registerForRemoteNotificationTypes:(UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeSound | UIRemoteNotificationTypeNewsstandContentAvailability)];
+    
     return YES;
 }
 							

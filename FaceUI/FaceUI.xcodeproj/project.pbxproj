@@ -13,7 +13,6 @@
 		48AD4F6E1A0134960063922A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48AD4F6C1A0134960063922A /* InfoPlist.strings */; };
 		48AD4F701A0134960063922A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AD4F6F1A0134960063922A /* main.m */; };
 		48AD4F741A0134960063922A /* FAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AD4F731A0134960063922A /* FAAppDelegate.m */; };
-		48AD4F771A0134960063922A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48AD4F751A0134960063922A /* Main.storyboard */; };
 		48AD4F7A1A0134960063922A /* FAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AD4F791A0134960063922A /* FAViewController.m */; };
 		48AD4F7C1A0134960063922A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48AD4F7B1A0134960063922A /* Images.xcassets */; };
 		48AD4F831A0134960063922A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48AD4F821A0134960063922A /* XCTest.framework */; };
@@ -21,6 +20,10 @@
 		48AD4F851A0134960063922A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48AD4F671A0134960063922A /* UIKit.framework */; };
 		48AD4F8D1A0134960063922A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48AD4F8B1A0134960063922A /* InfoPlist.strings */; };
 		48AD4F8F1A0134960063922A /* FaceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AD4F8E1A0134960063922A /* FaceUITests.m */; };
+		48AD4FA51A0140970063922A /* DRNRealTimeBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AD4FA21A0140970063922A /* DRNRealTimeBlurView.m */; };
+		48AD4FA61A0140970063922A /* UIImage+BoxBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AD4FA41A0140970063922A /* UIImage+BoxBlur.m */; };
+		48C3888F1A01419F00C6E465 /* ANBlurredImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C3888C1A01419F00C6E465 /* ANBlurredImageView.m */; };
+		48C388901A01419F00C6E465 /* UIImage+BoxBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C3888E1A01419F00C6E465 /* UIImage+BoxBlur.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +47,6 @@
 		48AD4F711A0134960063922A /* FaceUI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FaceUI-Prefix.pch"; sourceTree = "<group>"; };
 		48AD4F721A0134960063922A /* FAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAAppDelegate.h; sourceTree = "<group>"; };
 		48AD4F731A0134960063922A /* FAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAAppDelegate.m; sourceTree = "<group>"; };
-		48AD4F761A0134960063922A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48AD4F781A0134960063922A /* FAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAViewController.h; sourceTree = "<group>"; };
 		48AD4F791A0134960063922A /* FAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAViewController.m; sourceTree = "<group>"; };
 		48AD4F7B1A0134960063922A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +55,14 @@
 		48AD4F8A1A0134960063922A /* FaceUITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FaceUITests-Info.plist"; sourceTree = "<group>"; };
 		48AD4F8C1A0134960063922A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		48AD4F8E1A0134960063922A /* FaceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceUITests.m; sourceTree = "<group>"; };
+		48AD4FA11A0140970063922A /* DRNRealTimeBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRNRealTimeBlurView.h; sourceTree = "<group>"; };
+		48AD4FA21A0140970063922A /* DRNRealTimeBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRNRealTimeBlurView.m; sourceTree = "<group>"; };
+		48AD4FA31A0140970063922A /* UIImage+BoxBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BoxBlur.h"; sourceTree = "<group>"; };
+		48AD4FA41A0140970063922A /* UIImage+BoxBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BoxBlur.m"; sourceTree = "<group>"; };
+		48C3888B1A01419F00C6E465 /* ANBlurredImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANBlurredImageView.h; sourceTree = "<group>"; };
+		48C3888C1A01419F00C6E465 /* ANBlurredImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANBlurredImageView.m; sourceTree = "<group>"; };
+		48C3888D1A01419F00C6E465 /* UIImage+BoxBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BoxBlur.h"; sourceTree = "<group>"; };
+		48C3888E1A01419F00C6E465 /* UIImage+BoxBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BoxBlur.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +122,10 @@
 		48AD4F691A0134960063922A /* FaceUI */ = {
 			isa = PBXGroup;
 			children = (
+				48C3888A1A01419F00C6E465 /* ANBlurredImageView */,
+				48AD4FA01A0140970063922A /* realtimeblur */,
 				48AD4F721A0134960063922A /* FAAppDelegate.h */,
 				48AD4F731A0134960063922A /* FAAppDelegate.m */,
-				48AD4F751A0134960063922A /* Main.storyboard */,
 				48AD4F781A0134960063922A /* FAViewController.h */,
 				48AD4F791A0134960063922A /* FAViewController.m */,
 				48AD4F7B1A0134960063922A /* Images.xcassets */,
@@ -150,6 +161,28 @@
 				48AD4F8B1A0134960063922A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48AD4FA01A0140970063922A /* realtimeblur */ = {
+			isa = PBXGroup;
+			children = (
+				48AD4FA11A0140970063922A /* DRNRealTimeBlurView.h */,
+				48AD4FA21A0140970063922A /* DRNRealTimeBlurView.m */,
+				48AD4FA31A0140970063922A /* UIImage+BoxBlur.h */,
+				48AD4FA41A0140970063922A /* UIImage+BoxBlur.m */,
+			);
+			path = realtimeblur;
+			sourceTree = "<group>";
+		};
+		48C3888A1A01419F00C6E465 /* ANBlurredImageView */ = {
+			isa = PBXGroup;
+			children = (
+				48C3888B1A01419F00C6E465 /* ANBlurredImageView.h */,
+				48C3888C1A01419F00C6E465 /* ANBlurredImageView.m */,
+				48C3888D1A01419F00C6E465 /* UIImage+BoxBlur.h */,
+				48C3888E1A01419F00C6E465 /* UIImage+BoxBlur.m */,
+			);
+			path = ANBlurredImageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +264,6 @@
 			files = (
 				48AD4F7C1A0134960063922A /* Images.xcassets in Resources */,
 				48AD4F6E1A0134960063922A /* InfoPlist.strings in Resources */,
-				48AD4F771A0134960063922A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +284,11 @@
 			files = (
 				48AD4F701A0134960063922A /* main.m in Sources */,
 				48AD4F741A0134960063922A /* FAAppDelegate.m in Sources */,
+				48C3888F1A01419F00C6E465 /* ANBlurredImageView.m in Sources */,
 				48AD4F7A1A0134960063922A /* FAViewController.m in Sources */,
+				48AD4FA61A0140970063922A /* UIImage+BoxBlur.m in Sources */,
+				48C388901A01419F00C6E465 /* UIImage+BoxBlur.m in Sources */,
+				48AD4FA51A0140970063922A /* DRNRealTimeBlurView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +317,6 @@
 				48AD4F6D1A0134960063922A /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		48AD4F751A0134960063922A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				48AD4F761A0134960063922A /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		48AD4F8B1A0134960063922A /* InfoPlist.strings */ = {
@@ -457,6 +485,7 @@
 				48AD4F941A0134960063922A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48AD4F951A0134960063922A /* Build configuration list for PBXNativeTarget "FaceUITests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +494,7 @@
 				48AD4F971A0134960063922A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
